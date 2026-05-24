@@ -1,0 +1,9 @@
+[phases.setup]
+  aptPkgs = ["ffmpeg", "fonts-dejavu-core", "fonts-dejavu-extra", "python3-dev"]
+
+  [phases.install]
+  cmds = ["pip install -r requirements.txt"]
+
+  [start]
+  cmd = "python bot.py"
+  
